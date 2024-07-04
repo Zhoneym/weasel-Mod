@@ -105,7 +105,7 @@ update_changelog() {
     local version="$1"
     clog --from-latest-tag \
          --changelog CHANGELOG.md \
-         --repository https://github.com/rime/weasel \
+         --repository https://github.com/Zhoneym/weasel-Mod \
          --setversion "${version}"
 }
 
